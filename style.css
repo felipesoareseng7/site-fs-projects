@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(255, 255, 255);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+P {
+    text-align: justify;
+}
+header {
+    padding: 5px;
+    margin: 10px;
+    text-decoration: #15A7E0 ;
+    background-color: #2E5261;
+}
+
+header > h1 { color: #E08014;
+    text-shadow: .25px .25px .25px #15A7E0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    
+}
+
+nav > a {
+color: #15A7E0;
+font-weight: bold;
+text-decoration: none;
+padding: 5px;
+text-shadow: .75px .75px .75px black;
+}
+
+nav > a:hover {
+    background-color: #8F5C24;
+    transition-duration: .5s;
+    padding: 5px;
+}
+
+
+main {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+section > h2 {
+    background-image: linear-gradient(to right, #e081142f,#ffffff);
+color: #E08014;
+padding: 2px;
+}
+h3 {
+    
+    color: #2E5261;
+    width: 250px;
+    padding: 4.5px;
+    line-height: .7em;
+    margin: auto;
+    
+}
+div {margin: auto;
+padding: 10px;}
+
+.campao {
+    display:flex;
+    
+
+}
+
+.campao2 {
+    display: flex;
+}
+
+
+.campos {
+    background-color: rgb(240, 228, 211);
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border: 2px;
+    text-align: center;
+    
+}
+
+footer {
+    padding: 2px;
+    margin: 10px;
+    background-color: #2E5261;
+}
+
+footer > p {
+    font-weight: bold;
+    color: #15A7E0;
+    line-height: .7em;
+    text-shadow: 1px 1px 1px #000000;
+}
